@@ -5,10 +5,10 @@ Recon is a powerful CLI companion for developers and tools for agents, turning G
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![CI](https://github.com/owenpalfreymandev/reconcli/actions/workflows/ci.yml/badge.svg)](https://github.com/owenpalfreymandev/reconcli/actions/workflows/ci.yml)
+[![CI](https://github.com/owenpalfreyman/reconcli/actions/workflows/ci.yml/badge.svg)](https://github.com/owenpalfreyman/reconcli/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/)
 [![PyPI](https://img.shields.io/pypi/v/recon-cli)](https://pypi.org/)
-[![License](https://img.shields.io/github/license/owenpalfreymandev/reconcli)](https://github.com/owenpalfreymandev/reconcli/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/owenpalfreyman/reconcli)](https://github.com/owenpalfreyman/reconcli/blob/main/LICENSE)
 ## Overview
 
 Recon allows developers to view basic GitHub analytics in the terminal quickly, rather than opening up their browser. This means it allows agents to interact with the service without having browser capabilities.
@@ -60,7 +60,7 @@ Example output:
 │ Location      United Kingdom │ │                              │
 │ Company       —              │ │                              │
 │ Joined        2023-11-02     │ │                              │
-╰───── @owenpalfreymandev ─────╯ │                              │
+╰───── @owenpalfreyman ─────╯ │                              │
                                  ╰──────────────────────────────╯
 ```
 
@@ -158,7 +158,7 @@ over the saved value.
 The `details` command gives you an overview of a GitHub repository.
 
 ```bash
-recon details owenpalfreymandev fpark
+recon details owenpalfreyman fpark
 ```
 
 The command takes two arguments:
@@ -182,7 +182,7 @@ Usage: recon details [OPTIONS] {owner} {repo}
 Gain insights into your repo
 
 Arguments:
-  owner    Repository owner, e.g. owenpalfreymandev
+  owner    Repository owner, e.g. owenpalfreyman
   repo     Repository name, e.g. reconcli
 
 Options:
@@ -194,13 +194,13 @@ Options:
 For example, the `--languages` option can be used to get a more detailed breakdown of the languages used in a repository:
 
 ```bash
-recon details owenpalfreymandev fpark --languages
+recon details owenpalfreyman fpark --languages
 ```
 
 ```text
 ╭──────────────────────────────────────────────────────────╮
 │                        LANGUAGES                         │
-│                 owenpalfreymandev/fpark                  │
+│                 owenpalfreyman/fpark                  │
 ╰──────────────────────────────────────────────────────────╯
 4 languages returned by GitHub · 100% of reported code
 
@@ -224,7 +224,7 @@ Showing all 4 languages
 
 ### Explore Further
 
-These are just some of the commands available in Recon. There are plenty more options to play with, with more commands and features coming soon. Check the [roadmap](https://github.com/owenpalfreymandev/reconcli/blob/main/README.md) for more details.
+These are just some of the commands available in Recon. There are plenty more options to play with, with more commands and features coming soon. Check the [roadmap](https://github.com/owenpalfreyman/reconcli/blob/main/README.md) for more details.
 
 ## Contributing
 
@@ -232,7 +232,7 @@ Contributions are always welcome!
 
 To clone the repo and download all dependencies, run:
 ```bash
-git clone https://github.com/owenpalfreymandev/reconcli.git
+git clone https://github.com/owenpalfreyman/reconcli.git
 uv sync
 ```
 
@@ -263,7 +263,7 @@ Recon is licensed under the MIT License. See the [LICENSE](LICENSE) file for det
 
 Recon is developed by Owen Palfreyman.
 
-GitHub: @owenpalfreymandev
-Repository: owenpalfreymandev/reconcli
+GitHub: @owenpalfreyman
+Repository: owenpalfreyman/reconcli
 
-*or could just run `recon details owenpalfreymandev reconcli --contributors` wink wink*
+*or could just run `recon details owenpalfreyman reconcli --contributors` wink wink*
